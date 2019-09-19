@@ -1,25 +1,36 @@
-# README
+# railsgirls-app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+* Ruby version 2.6.5
 
-* Ruby version
+* Sqlite database
 
-* System dependencies
+
 
 * Configuration
 
-* Database creation
 
-* Database initialization
+### To run the app locally:
 
-* How to run the test suite
+* need to have Docker installed
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+docker build -t railsapp .
+```
 
-* Deployment instructions
+```
+ docker run -p 3000:3000 railsapp
+```
 
-* ...
-# railsgirls-app
+
+### To do:
+
+* docker-compose file
+
+* fix comments for ideas
+
+* testing (unit, functional)
+
+* make it a lot prettier
+
+* deploy (using heroku?)
